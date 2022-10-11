@@ -75,7 +75,7 @@ class Calculator:
         self.solution = self.stack.pop()
             
         
-                    
-obj = Calculator("5+5*2/2")
+expression = input("Enter expression: ")
+obj = Calculator(expression)
 obj.calculator()
 print(obj.solution)
