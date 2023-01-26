@@ -69,13 +69,15 @@ class Calculator:
             if precedence != 0:            
                 self.solution = self.performOperations()
                 
-    def calculator(self):
+    def calculate(self):
         self.postfixConvertor()
         self.postfixSolver()
         self.solution = self.stack.pop()
             
         
+        '''
 expression = input("Enter expression: ")
 obj = Calculator(expression)
-obj.calculator()
+obj.calculate()
 print(obj.solution)
+'''
